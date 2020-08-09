@@ -1,0 +1,9 @@
+<!-- pages/addbill/addbill.wxml -->
+<view class="addbill">
+  <Header pathText="{{2}}"></Header>
+  <view class="add_record">
+    <view wx:for="{{tab}}" wx:key="item" wx:for-index="index" class="{{activeTab==index?'tab active':'tab'}}">
+      <view>{{item}}</view>
+    </view>
+  </view>
+</view>

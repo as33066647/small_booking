@@ -1,0 +1,8 @@
+<view class="datail">
+  <Header pathText="{{1}}" />
+  <viwe class="datail_title">全部收支</viwe>
+  <view wx:if="{{datailList.lenght>0}}" class="datail_record">
+    <view wx:for="{{datailList}}">{{item}}</view>
+  </view>
+  <view wx:else class="not_datail">暂无记录</view>
+</view>

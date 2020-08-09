@@ -1,0 +1,50 @@
+.tag {
+  background-color: #eeeeee;
+  height: 100vh;
+}
+.tag .tag_title {
+  line-height: 48rpx;
+  font-size: 32rpx;
+  color: white;
+  background: #0099cc;
+  padding: 26rpx 30rpx;
+}
+.tag .tag_box {
+  padding: 0 10rpx;
+}
+.tag .tag_box .tag_item {
+  min-height: 76rpx;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  color: #000000;
+  background: #ffffff;
+  margin: 16rpx 0rpx;
+  padding: 0rpx 24rpx;
+  border-radius: 8rpx;
+}
+.tag .tag_box .tag_item .icon {
+  display: flex;
+  align-items: center;
+}
+.tag .tag_box .tag_item .icon .change {
+  width: 80rpx;
+  height: 50rpx;
+  margin-right: 10rpx;
+}
+.tag .tag_box .tag_item .icon .del {
+  width: 35rpx;
+  height: 35rpx;
+}
+.tag .btn {
+  margin: 40rpx 0;
+}
+.tag .btn button {
+  width: 30%;
+  color: #fff;
+  background: #fa8c5f;
+  padding: 10rpx 20rpx;
+  border-radius: 15rpx;
+}

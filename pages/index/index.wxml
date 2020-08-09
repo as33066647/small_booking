@@ -1,0 +1,20 @@
+<!-- index.wxml -->
+<wxs src="../../wxs/header.wxs" module="header" />
+<view class="home">
+  <Header class="header" activePath="{{'index'}}" />
+  <view class="home_type">
+    <view class="today">今天是</view>
+    <view class="today_date">{{header.formatTime(date)}}</view>
+    <view class="today_tag">点击下方 [记账] 记一笔吧~</view>
+  </view>
+  <view class="lately">
+    <view class="icon">
+      <image class="img" src="../../static/detailed.png" mode="aspectFit" lazy-load="false" binderror="" bindload="" />
+    </view>
+    最近
+  </view>
+  <view wx:if="{{record.length>0}}" class="records_wrapper">
+    <view wx:for="{{record}}">{{item}}</view>
+  </view>
+  <view wx:else class="no_record">暂无记录</view>
+</view>

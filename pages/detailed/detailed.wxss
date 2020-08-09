@@ -1,0 +1,17 @@
+/* pages/detailed/detailed.wxss */
+.datail {
+  background-color: #eeeeee;
+  height: 100vh;
+}
+.datail .datail_title {
+  display: block;
+  width: 100%;
+  line-height: 96rpx;
+  font-size: 32rpx;
+  color: white;
+  background: #0099cc;
+  padding: 26rpx 30rpx;
+}
+.datail .not_datail {
+  padding: 20rpx 24rpx;
+}

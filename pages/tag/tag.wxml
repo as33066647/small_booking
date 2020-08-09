@@ -1,0 +1,20 @@
+<view class="tag">
+  <Header pathText="{{3}}"></Header>
+  <view class="tag_title">全部标签</view>
+  <view class="tag_box">
+    <view wx:for="{{tagList}}" class="tag_item">
+      <text>{{item}}</text>
+      <view class="icon">
+        <view class="change">
+          <image src="../../static/change.png" mode="aspectFit" lazy-load="false" />
+        </view>
+        <view class="del">
+          <image src="../../static/del.png" mode="aspectFit" lazy-load="false" />
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="btn">
+    <button >新建标签</button>
+  </view>
+</view>

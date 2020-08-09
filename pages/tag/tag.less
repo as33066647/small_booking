@@ -1,0 +1,50 @@
+.tag {
+  background-color: #eeeeee;
+  height: 100vh;
+  .tag_title {
+    line-height: 24rpx * 2;
+    font-size: 16rpx * 2;
+    color: white;
+    background: rgb(0, 102, 204);
+    padding: 13rpx * 2 15rpx * 2;
+  }
+  .tag_box {
+    padding: 0 10rpx;
+    .tag_item {
+      min-height: 38rpx * 2;
+      display: flex;
+      -webkit-box-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      align-items: center;
+      color: rgb(0, 0, 0);
+      background: rgb(255, 255, 255);
+      margin: 8rpx * 2 0rpx * 2;
+      padding: 0rpx * 2 12rpx * 2;
+      border-radius: 4rpx * 2;
+      .icon {
+        display: flex;
+        align-items: center;
+        .change {
+          width: 80rpx;
+          height: 50rpx;
+          margin-right: 10rpx;
+        }
+        .del {
+          width: 35rpx;
+          height: 35rpx;
+        }
+      }
+    }
+  }
+  .btn {
+    margin: 40rpx 0;
+    button {
+      width: 30%;
+      color: #fff;
+      background: #fa8c5f;
+      padding: 10rpx 20rpx;
+      border-radius: 15rpx;
+    }
+  }
+}

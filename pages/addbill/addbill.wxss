@@ -1,0 +1,24 @@
+.addbill {
+  background-color: #fff;
+}
+.addbill .add_record {
+  background-color: #0099cc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100rpx;
+}
+.addbill .add_record .tab {
+  flex: 1;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.addbill .add_record .tab view {
+  width: 92rpx;
+  padding-bottom: 15rpx;
+}
+.addbill .add_record .active view {
+  border-bottom: 4rpx solid #fff;
+}

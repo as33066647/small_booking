@@ -1,0 +1,11 @@
+<!-- components/header/header.wxml -->
+<wxs src="../../wxs/header.wxs" module="header" />
+<view class="header">
+  <view class="header_top">
+    <view class="icon">
+      <image class="img" src="../../static/user.png" mode="aspectFit" lazy-load="false" binderror="" bindload="" />
+    </view>
+    <view class="title">浪浪记账</view>
+    <view class="path_text">{{header.switchPathText(pathText)}}</view>
+  </view>
+</view>
